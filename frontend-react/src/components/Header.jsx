@@ -43,17 +43,17 @@ const Header = () => {
 export default Header */
 
 import Button from './Button'
-/* import { Link, useNavigate } from 'react-router-dom' */
+import { Link, useNavigate } from 'react-router-dom'
 
 const Header = () => {
   return (
     <>
     <nav className="navbar container py-1 align-items-top">
-      <a className="navbar-brand text-light" href="">Main Portal</a>
+      <Link className="navbar-brand text-light" to="/">Main Portal</Link>
       <div>
-        <Button text="Login" class="btn-outline-info" />
+        <Button text="Login" class="btn-outline-info" url="/login" />
         &nbsp; &nbsp;
-        <Button text="Register" class="btn-info" />
+        <Button text="Register" class="btn-info" url="/register" />
       </div>
     </nav>
     </>
