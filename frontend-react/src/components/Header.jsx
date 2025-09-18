@@ -1,4 +1,4 @@
-/* import {useContext} from 'react'
+import {useContext} from 'react'
 import Button from './Button'
 import { Link, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../AuthProvider'
@@ -40,10 +40,13 @@ const Header = () => {
   )
 }
 
-export default Header */
+export default Header
 
+
+/* 
 import Button from './Button'
 import { Link, useNavigate } from 'react-router-dom'
+import { AuthContext } from '../AuthProvider'
 
 const Header = () => {
   return (
@@ -60,4 +63,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header */
