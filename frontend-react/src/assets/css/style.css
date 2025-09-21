@@ -11,6 +11,11 @@ body{
     min-height: 100vh;
 }
 
+.container-fluid{
+    background-color: #c5c8ca;
+    min-height: 100vh;
+}
+
 .container{
     flex: 1;
 }
